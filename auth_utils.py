@@ -47,7 +47,7 @@ class AuthJwtCsrt():
         subject = self.decode_jwt(value)
         return subject
 
-    def verify_update_jwt(self, request) -> tuple(str, str):
+    def verify_update_jwt(self, request) -> tuple[str, str]:
         subject = self.verify_jwt(request) #今回はemailが返ってくる
         new_token = self.encode_jwt(subject)
         return new_token, subject
