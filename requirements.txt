@@ -1,7 +1,7 @@
 anyio==3.6.2
 app==0.0.1
 bcrypt==3.2.0
-certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+certifi
 cffi==1.15.1
 charset-normalizer==3.1.0
 click==8.1.3
